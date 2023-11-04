@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.004);
+  -moz-osx-font-smoothing: grayscale;
+}
